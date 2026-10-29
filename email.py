@@ -2,9 +2,10 @@
 email = input("Email daxil edin:")
 parol = input("Parolu daxil edin:")
 # yoxlayiriq email ve parolu
-if email != correct_email
-print("akkaunt tapilmadi")
+if email != correct_email:
+    print("akkaunt tapilmadi")
 elif parol != correct_parol:
-print("akkaunt tapilmadi")
+    print("akkaunt tapilmadi")
 else:
-print("xos gelmisiz!")
+    print("xos gelmisiz!")
+ 
